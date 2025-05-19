@@ -64,7 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbrirForm.cs" />
+    <Compile Include="Uteis\AbrirForm.cs" />
     <Compile Include="AtividadesIniciante\Contagem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,16 +191,16 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu_Iniciante.cs">
+    <Compile Include="Menus\Menu_Iniciante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu_Iniciante.Designer.cs">
+    <Compile Include="Menus\Menu_Iniciante.Designer.cs">
       <DependentUpon>Menu_Iniciante.cs</DependentUpon>
     </Compile>
-    <Compile Include="Menu_Junior.cs">
+    <Compile Include="Menus\Menu_Junior.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu_Junior.Designer.cs">
+    <Compile Include="Menus\Menu_Junior.Designer.cs">
       <DependentUpon>Menu_Junior.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -268,10 +268,10 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu_Iniciante.resx">
+    <EmbeddedResource Include="Menus\Menu_Iniciante.resx">
       <DependentUpon>Menu_Iniciante.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu_Junior.resx">
+    <EmbeddedResource Include="Menus\Menu_Junior.resx">
       <DependentUpon>Menu_Junior.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
